@@ -15,8 +15,7 @@ Save urls too
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `website_content` longtext COLLATE utf8_unicode_ci,
   `website_url` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+  PRIMARY KEY (`id`)) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 4. Then access the url:
        To parse website:
